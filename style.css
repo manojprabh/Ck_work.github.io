@@ -275,10 +275,10 @@
    height: 275.372px;
    transform: rotate(-15deg);
    flex-shrink: 0;
+   display: block;
 }
-@media screen and(max-width:576px){
+@media screen and (max-width:576px) {
    .Exchange-card::before{
-      display: none !important;
       content: "";
       background: url('Images/billion.png'),50% / cover no-repeat;
       position:absolute;
@@ -288,6 +288,7 @@
       height: 275.372px;
       transform: rotate(-15deg);
       flex-shrink: 0;
+      display: none !important;
    }
 }
 .button-contain{
@@ -499,7 +500,7 @@
    flex-shrink: 0;
    display: block;
 }
-@media screen and(max-width:'576px'){
+@media screen and (max-width:576px){
    .btc-exchange-contain::before{
       content: " ";
       background-image:url('Images/cube.png');
@@ -512,7 +513,7 @@
       height: 350.037px;
       transform: rotate(6.824deg);
       flex-shrink: 0;
-      display: none;
+      display: none !important;
    }
 }
 .downloads-sheet-top{
