@@ -95,7 +95,6 @@
       position: relative;
       margin-top: 330px;
       left:430px;
-     /* opacity: 0.6; */
    }
 }
  .top-lists-content ul{
@@ -336,6 +335,12 @@
    height: 230px;
    width: 431px;
 }
+/* @media screen and (max-width:576px){
+   .downloads-cards{
+      position: relative;
+      right:160px;
+   }
+} */
 .download-attributes{
    display: flex;
    flex-direction: column;
@@ -454,9 +459,12 @@
    bottom:-65px;
    right:260px;
 }
-@media screen and(max-width:'576px'){
+@media screen and (max-width:576px){
    .download-cards-top2{
-      display:none !important;
+      position:relative;
+      bottom:175px;
+      left:80px;
+      /* border:2px solid red; */
    }
 }
 .btc-exchange-contain{
