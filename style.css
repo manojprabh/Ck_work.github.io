@@ -69,7 +69,7 @@
    }  
    .top-lists-content{
       display: none !important;
-   }
+      }
    .people-card p{
     font-size: 20px;
    }
@@ -109,8 +109,9 @@
     background:#FFF;
     box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.10);
     position: absolute;
-    right:520px;
+    left:660px;
     top:270px;
+    border:2px solid black;
 }
 .top-lists-content ul li img{
     padding:10px;
@@ -275,6 +276,20 @@
    transform: rotate(-15deg);
    flex-shrink: 0;
 }
+@media screen and(max-width:'576px'){
+   .Exchange-card::before{
+      content: "";
+      background: url('Images/billion.png'),50% / cover no-repeat;
+      position:absolute;
+      top:-40px;
+      left:250px;
+      width: 275.372px;
+      height: 275.372px;
+      transform: rotate(-15deg);
+      flex-shrink: 0;
+      display: none;
+   }
+}
 .button-contain{
    border-radius: 10px;
    background: #FFE046;
@@ -435,8 +450,8 @@
 }
 .download-cards-top2{
    position:relative;
-   bottom:10px;
-   left:-520px;
+   bottom:-65px;
+   right:260px;
 }
 @media screen and(max-width:'576px'){
    .download-cards-top2{
@@ -483,6 +498,22 @@
    transform: rotate(6.824deg);
    flex-shrink: 0;
    display: block;
+}
+@media screen and(max-width:'576px'){
+   .btc-exchange-contain::before{
+      content: " ";
+      background-image:url('Images/cube.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      position:absolute;
+      bottom:-90px;
+      left:80px;
+      width: 292.037px;
+      height: 350.037px;
+      transform: rotate(6.824deg);
+      flex-shrink: 0;
+      display: none;
+   }
 }
 .downloads-sheet-top{
    border-radius: 10px;
