@@ -267,7 +267,7 @@
 }
 .Exchange-card::before{
    content: "";
-   background: url('Images/billion.png'),50% / cover no-repeat;
+   background: url('Images/billin.png'),50% / cover no-repeat;
    position:absolute;
    top:-40px;
    left:250px;
