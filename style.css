@@ -438,6 +438,11 @@
    bottom:10px;
    left:-520px;
 }
+@media screen and(max-width:'576px'){
+   .download-cards-top2{
+      display:none !important;
+   }
+}
 .btc-exchange-contain{
    padding:60px 0px;
    position: relative;
