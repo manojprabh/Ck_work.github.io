@@ -266,7 +266,7 @@
 }
 .Exchange-card::before{
    content: "";
-   background: url('images/billion.png'),50% / cover no-repeat;
+   background: url('Images/billion.png'),50% / cover no-repeat;
    position:absolute;
    top:-40px;
    left:250px;
@@ -410,7 +410,7 @@
    padding:60px 0px;
 }
 .global-exchange-contain::after{
-   background-image: url('images/ck-2.png');
+   background-image: url('Images/ck-2.png');
    background-repeat: no-repeat;
    background-size:cover;
    position: absolute;
@@ -424,7 +424,7 @@
 
 .Exchange-card::after{
    content: "";
-   background: url('images/leaf.png'),50% / cover no-repeat;
+   background: url('Images/leaf.png'),50% / cover no-repeat;
    position:absolute;
    bottom:-310px;
    right:180px;
@@ -467,7 +467,7 @@
 }
 .btc-exchange-contain::before{
    content: " ";
-   background-image:url('images/cube.png');
+   background-image:url('Images/cube.png');
    background-repeat: no-repeat;
    background-size: cover;
    position:absolute;
