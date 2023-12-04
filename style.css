@@ -267,7 +267,7 @@
 }
 .Exchange-card::before{
    content: "";
-   background: url('Images/billin.png'),50% / cover no-repeat;
+   background: url('Images/billion.png'),50% / cover no-repeat;
    position:absolute;
    top:-40px;
    left:250px;
@@ -279,6 +279,15 @@
 @media screen and(max-width:'576px'){
    .Exchange-card::before{
       display: none !important;
+      content: "";
+      background: url('Images/billion.png'),50% / cover no-repeat;
+      position:absolute;
+      top:-40px;
+      left:250px;
+      width: 275.372px;
+      height: 275.372px;
+      transform: rotate(-15deg);
+      flex-shrink: 0;
    }
 }
 .button-contain{
